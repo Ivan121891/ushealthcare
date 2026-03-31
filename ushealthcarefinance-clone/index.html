@@ -104,21 +104,26 @@
 
     /* ── TICKER ── */
     .ticker-wrap {
-      background: #fff; border-top: 1px solid #eee; border-bottom: 1px solid #eee;
-      padding: 16px 0; overflow: hidden; white-space: nowrap;
+      background: #1b2a4a; border: none;
+      padding: 32px 0; overflow: hidden; white-space: nowrap;
     }
     .ticker-inner {
-      display: inline-flex; gap: 60px; animation: ticker 30s linear infinite;
+      display: inline-flex; gap: 80px; animation: ticker 30s linear infinite;
     }
     .ticker-inner:hover { animation-play-state: paused; }
     .ticker-item {
       display: inline-flex; align-items: center; gap: 10px;
-      font-size: 0.88rem; font-weight: 600; color: #1a1a2e; flex-shrink: 0;
+      font-size: 1.05rem; font-weight: 700; color: #fff; flex-shrink: 0;
+      letter-spacing: 0.5px;
     }
     .ticker-item .stars { color: #f5a623; font-size: 0.85rem; }
     .ticker-badge {
       background: #1a3bdc; color: #fff; border-radius: 20px;
       padding: 3px 12px; font-size: 0.78rem; font-weight: 800;
+    }
+    .ticker-item .partner-label {
+      font-size: 0.72rem; font-weight: 700; color: #3b8bff; text-transform: uppercase;
+      letter-spacing: 1.5px; margin-right: 4px;
     }
     @keyframes ticker { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
 
@@ -544,16 +549,22 @@
 <!-- ── TICKER ── -->
 <div class="ticker-wrap">
   <div class="ticker-inner">
-    <div class="ticker-item"><span class="stars">★★★★★</span> MedSpa Customer — "Helpful with best options."</div>
-    <div class="ticker-item">Proud Partner <strong>CLUB WYNDHAM</strong></div>
-    <div class="ticker-item"><span class="ticker-badge">+91</span> Net Promoter Score</div>
-    <div class="ticker-item">Proud Partner <strong>LaserAway</strong></div>
-    <div class="ticker-item">Proud Partner <strong>SafeStreets</strong></div>
-    <div class="ticker-item"><span class="stars">★★★★★</span> MedSpa Customer — "Helpful with best options."</div>
-    <div class="ticker-item">Proud Partner <strong>CLUB WYNDHAM</strong></div>
-    <div class="ticker-item"><span class="ticker-badge">+91</span> Net Promoter Score</div>
-    <div class="ticker-item">Proud Partner <strong>LaserAway</strong></div>
-    <div class="ticker-item">Proud Partner <strong>SafeStreets</strong></div>
+    <div class="ticker-item"><span class="partner-label">PROUD PARTNER</span> <strong>Affirm</strong></div>
+    <div class="ticker-item"><span class="partner-label">PROUD PARTNER</span> <strong>Klarna</strong></div>
+    <div class="ticker-item"><span class="partner-label">PROUD PARTNER</span> <strong>Afterpay</strong></div>
+    <div class="ticker-item"><span class="partner-label">PROUD PARTNER</span> <strong>CareCredit</strong></div>
+    <div class="ticker-item"><span class="partner-label">PROUD PARTNER</span> <strong>Patient Fi</strong></div>
+    <div class="ticker-item"><span class="partner-label">PROUD PARTNER</span> <strong>Cherry Payment</strong></div>
+    <div class="ticker-item"><span class="partner-label">PROUD PARTNER</span> <strong>US Avvance</strong></div>
+    <div class="ticker-item"><span class="partner-label">PROUD PARTNER</span> <strong>Clarity Pay</strong></div>
+    <div class="ticker-item"><span class="partner-label">PROUD PARTNER</span> <strong>Affirm</strong></div>
+    <div class="ticker-item"><span class="partner-label">PROUD PARTNER</span> <strong>Klarna</strong></div>
+    <div class="ticker-item"><span class="partner-label">PROUD PARTNER</span> <strong>Afterpay</strong></div>
+    <div class="ticker-item"><span class="partner-label">PROUD PARTNER</span> <strong>CareCredit</strong></div>
+    <div class="ticker-item"><span class="partner-label">PROUD PARTNER</span> <strong>Patient Fi</strong></div>
+    <div class="ticker-item"><span class="partner-label">PROUD PARTNER</span> <strong>Cherry Payment</strong></div>
+    <div class="ticker-item"><span class="partner-label">PROUD PARTNER</span> <strong>US Avvance</strong></div>
+    <div class="ticker-item"><span class="partner-label">PROUD PARTNER</span> <strong>Clarity Pay</strong></div>
   </div>
 </div>
 
